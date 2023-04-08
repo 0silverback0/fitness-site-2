@@ -1,0 +1,95 @@
+/* .nav-tabs {
+    border-bottom: 2px solid #fff;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .nav-link.active {
+    border: none;
+    border-radius: 0;
+    background-color: #333;
+    color: #fff;
+  } */
+  
+
+  /* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+/* Form styles */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2d98da;
+}
+
+.btn-primary {
+  background-color: #2d98da;
+  border-color: #2d98da;
+}
+
+.btn-primary:hover {
+  background-color: #1a75bc;
+  border-color: #1a75bc;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+/* Brand color styles */
+.bg-blue {
+  background-color: #2d98da;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: #ccc;
+}
